@@ -1,0 +1,40 @@
+services:
+
+  db:
+    image: postgres
+    restart: always
+    environment:
+      - POSTGRES_USER=user  
+      - POSTGRES_PASSWORD=pass
+      - POSTGRES_DB=db_plentyone
+    ports:
+      - 5432:5432
+    volumes:
+      - database_postgres:/var/lib/postgresql/data
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8082:8080
+
+  microservice:
+    image: microservice
+    restart: always
+    ports:
+      - 8081:8081
+
+  client:
+    image: client
+    restart: always
+    ports:
+      - 8083:8083
+
+  api_gateway:
+    image: api_gateway
+    restart: always
+    ports:
+      - 8084:8084
+
+volumes:
+  database_postgres: 

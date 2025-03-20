@@ -1,0 +1,13 @@
+# Use official Golang 1.22 image for ARM64 (Mac M3 Pro compatible)
+FROM --platform=linux/arm64 golang:1.22 AS builder
+
+WORKDIR /app
+
+# Copy source code into the container
+COPY bin/client /client
+
+# Expose the client port
+EXPOSE 8083
+
+# Run the client
+CMD ["/client"]
