@@ -4,7 +4,7 @@ FROM --platform=linux/arm64 golang:1.22 AS builder
 WORKDIR /app
 
 # Copy source code into the container
-COPY bin/microservice /microservice
+COPY bin/microservice microservice
 
 # Download dependencies and build
 # COPY go.mod go.sum ./
@@ -18,4 +18,4 @@ COPY bin/microservice /microservice
 EXPOSE 8081
 
 # Run the microservice
-CMD ["/microservice"]
+CMD ["/app/microservice"]

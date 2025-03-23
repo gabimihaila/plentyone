@@ -4,10 +4,11 @@ FROM --platform=linux/arm64 golang:1.22 AS builder
 WORKDIR /app
 
 # Copy source code into the container
-COPY bin/api_gateway /api_gateway
+COPY bin/api_gateway api_gateway
+COPY api_gateway/config.json config.json
 
-# Expose the client port
+# Expose the /app/api_gateway port
 EXPOSE 8084
 
-# Run the client
-CMD ["/api_gateway"]
+# Run the /app/api_gateway
+CMD ["/app/api_gateway"]

@@ -1,0 +1,19 @@
+{
+    "port": "8084",
+    "jwt_secret": "bchidewalbcewakcdaslhcuacdbhcbcwila",
+    "destinations": 
+    [
+        {
+            "url": "http://192.168.1.206:8081",
+            "path_prefix": "serv0"
+        },
+        {
+            "url": "http://192.168.1.206:8081",
+            "path_prefix": "serv1"
+        },
+        {
+            "url": "http://192.168.1.206:8081",
+            "path_prefix": "serv2"
+        }
+    ]
+}

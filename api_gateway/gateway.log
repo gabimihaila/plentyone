@@ -1,0 +1,146 @@
+2025/03/21 14:07:16 Logger initialized
+2025/03/21 14:21:55 Logger initialized
+2025/03/21 14:53:58 Logger initialized
+2025/03/21 15:09:41 Logger initialized
+2025/03/21 15:09:55 Request to http://192.168.1.252:8081/ took 0.005 seconds
+2025/03/21 15:10:55 Request to http://192.168.1.252:8081/ took 0.001 seconds
+2025/03/21 15:11:57 Logger initialized
+2025/03/21 15:11:57 listen tcp :8084: bind: address already in use
+2025/03/21 15:14:18 Logger initialized
+2025/03/21 15:14:55 Request to http://192.168.1.252:8081/ took 0.002 seconds
+2025/03/21 15:15:55 Request to http://192.168.1.252:8081/ took 0.002 seconds
+2025/03/21 15:16:55 Request to http://192.168.1.252:8081/ took 0.001 seconds
+2025/03/21 15:17:23 Logger initialized
+2025/03/21 15:17:56 Request to http://192.168.1.252:8081/ took 0.002 seconds
+2025/03/21 15:18:56 Request to http://192.168.1.252:8081/ took 0.001 seconds
+2025/03/21 15:19:56 Request to http://192.168.1.252:8081/ took 0.002 seconds
+2025/03/21 15:20:56 Request to http://192.168.1.252:8081/ took 0.002 seconds
+2025/03/21 15:29:15 Logger initialized
+2025/03/21 15:29:57 Request to http://192.168.1.252:8081 took 0.001 seconds
+2025/03/21 15:30:57 Request to http://192.168.1.252:8081 took 0.001 seconds
+2025/03/21 15:31:57 Request to http://192.168.1.252:8081 took 0.002 seconds
+2025/03/21 15:32:57 Request to http://192.168.1.252:8081 took 0.001 seconds
+2025/03/21 17:00:40 Logger initialized
+2025/03/21 17:01:06 Request to http://192.168.1.252:8081 took 0.002 seconds
+2025/03/21 17:04:32 Logger initialized
+2025/03/21 17:07:33 Logger initialized
+2025/03/21 17:10:07 Logger initialized
+2025/03/21 17:15:12 Logger initialized
+2025/03/21 17:19:14 Logger initialized
+2025/03/21 17:30:43 Logger initialized
+2025/03/21 17:59:10 Logger initialized
+2025/03/21 17:59:53 Logger initialized
+2025/03/21 18:01:43 Logger initialized
+2025/03/21 18:04:18 Logger initialized
+2025/03/21 23:37:39 Logger initialized
+2025/03/21 23:41:10 Logger initialized
+2025/03/21 23:43:20 Logger initialized
+2025/03/21 23:44:23 Logger initialized
+2025/03/21 23:47:42 Logger initialized
+2025/03/21 23:49:38 Logger initialized
+2025/03/21 23:53:02 Logger initialized
+2025/03/21 23:54:01 Request to http://192.168.1.137:8081 took 0.007 seconds
+2025/03/21 23:55:01 Request to http://192.168.1.137:8081 took 0.001 seconds
+2025/03/21 23:56:01 Request to http://192.168.1.137:8081 took 0.001 seconds
+2025/03/21 23:57:01 Request to http://192.168.1.137:8081 took 0.001 seconds
+2025/03/22 10:33:54 Logger initialized
+2025/03/22 10:35:44 Logger initialized
+2025/03/22 10:35:44 Request to http://192.168.1.206:8081 took 0.004 seconds
+2025/03/22 10:35:48 Request to http://192.168.1.206:8081 took 0.001 seconds
+2025/03/22 10:35:54 Request to http://192.168.1.206:8081 took 0.002 seconds
+2025/03/22 10:36:07 Request to http://192.168.1.206:8081 took 0.001 seconds
+2025/03/22 10:36:33 Request to http://192.168.1.206:8081 took 0.001 seconds
+2025/03/22 10:37:24 Request to http://192.168.1.206:8081 took 0.001 seconds
+2025/03/22 10:38:09 Logger initialized
+2025/03/22 10:38:24 Request to http://192.168.1.206:8081 took 0.002 seconds
+2025/03/22 10:39:33 Logger initialized
+2025/03/22 10:40:24 Request to http://192.168.1.206:8081 took 0.002 seconds
+2025/03/22 10:41:25 Request to http://192.168.1.206:8081 took 0.001 seconds
+2025/03/22 10:47:18 Logger initialized
+2025/03/22 10:47:25 Request to http://192.168.1.206:8081 took 0.002 seconds
+2025/03/22 10:48:46 Logger initialized
+2025/03/22 10:48:46 listen tcp :8084: bind: address already in use
+2025/03/22 10:49:00 Logger initialized
+2025/03/22 10:49:25 Request to http://192.168.1.206:8081 took 0.002 seconds
+2025/03/22 11:20:54 Logger initialized
+2025/03/22 11:21:29 Request to http://192.168.1.206:8081 took 0.002 seconds
+2025/03/22 11:22:39 Logger initialized
+2025/03/22 11:23:29 Request to http://192.168.1.206:8081 took 0.0013338 seconds
+2025/03/22 11:33:41 Logger initialized
+2025/03/22 11:34:39 Logger initialized
+2025/03/22 11:35:30 Request to http://192.168.1.206:8081 took 0.0019225 seconds
+2025/03/22 11:36:49 Logger initialized
+2025/03/22 11:37:30 Request to http://192.168.1.206:8081 took 0.0013748 seconds
+2025/03/22 12:03:28 Logger initialized
+2025/03/22 12:03:28 /Users/gabrielamihaila/Projects/plentyone/api_gateway/main.go:35 INFO API Gateway running on 8084
+2025/03/22 12:03:33 /Users/gabrielamihaila/Projects/plentyone/api_gateway/config/config.go:36 INFO Successfully Opened config.json
+2025/03/22 12:03:33 /Users/gabrielamihaila/Projects/plentyone/api_gateway/config/config.go:36 INFO Successfully Opened config.json
+2025/03/22 12:03:33 /Users/gabrielamihaila/Projects/plentyone/api_gateway/config/config.go:36 INFO Successfully Opened config.json
+2025/03/22 12:03:33 Request to http://192.168.1.206:8081 took 0.0016209 seconds
+2025/03/22 12:03:33 /Users/gabrielamihaila/Projects/plentyone/api_gateway/handlers/handler.go:73 INFO [API GATEWAY] Method: GET | Path: http://192.168.1.206:8081 | Status: 200 OK | Duration: 0.001620916
+2025/03/22 12:03:33 /Users/gabrielamihaila/Projects/plentyone/api_gateway/handlers/handler.go:81 INFO Request relayed successfully
+2025/03/22 12:04:33 /Users/gabrielamihaila/Projects/plentyone/api_gateway/config/config.go:36 INFO Successfully Opened config.json
+2025/03/22 12:04:33 /Users/gabrielamihaila/Projects/plentyone/api_gateway/config/config.go:36 INFO Successfully Opened config.json
+2025/03/22 12:04:33 /Users/gabrielamihaila/Projects/plentyone/api_gateway/config/config.go:36 INFO Successfully Opened config.json
+2025/03/22 12:04:33 Request to http://192.168.1.206:8081 took 0.0006509 seconds
+2025/03/22 12:04:33 /Users/gabrielamihaila/Projects/plentyone/api_gateway/handlers/handler.go:73 INFO [API GATEWAY] Method: GET | Path: http://192.168.1.206:8081 | Status: 200 OK | Duration: 0.000650917
+2025/03/22 12:04:33 /Users/gabrielamihaila/Projects/plentyone/api_gateway/handlers/handler.go:81 INFO Request relayed successfully
+2025/03/22 12:06:50 Logger initialized
+2025/03/22 12:06:50 /Users/gabrielamihaila/Projects/plentyone/api_gateway/main.go:35 INFO API Gateway running on 8084
+2025/03/22 12:07:33 /Users/gabrielamihaila/Projects/plentyone/api_gateway/config/config.go:36 INFO Successfully Opened config.json
+2025/03/22 12:07:33 /Users/gabrielamihaila/Projects/plentyone/api_gateway/config/config.go:36 INFO Successfully Opened config.json
+2025/03/22 12:07:33 /Users/gabrielamihaila/Projects/plentyone/api_gateway/config/config.go:36 INFO Successfully Opened config.json
+2025/03/22 12:07:33 /Users/gabrielamihaila/Projects/plentyone/api_gateway/handlers/handler.go:64 INFO Request to http://192.168.1.206:8081 took 0.0019741 seconds
+2025/03/22 12:07:33 /Users/gabrielamihaila/Projects/plentyone/api_gateway/handlers/handler.go:74 INFO [API GATEWAY] Method: GET | Path: http://192.168.1.206:8081 | Status: 200 OK | Duration: 0.001974083
+2025/03/22 12:07:33 /Users/gabrielamihaila/Projects/plentyone/api_gateway/handlers/handler.go:82 INFO Request relayed successfully
+2025/03/22 12:17:22 Logger initialized
+2025/03/22 12:17:22 /Users/gabrielamihaila/Projects/plentyone/api_gateway/main.go:35 INFO API Gateway running on 8084
+2025/03/22 12:17:22 listen tcp :8084: bind: address already in use
+2025/03/22 12:17:26 Logger initialized
+2025/03/22 12:17:26 /Users/gabrielamihaila/Projects/plentyone/api_gateway/main.go:35 INFO API Gateway running on 8084
+2025/03/22 12:17:34 /Users/gabrielamihaila/Projects/plentyone/api_gateway/config/config.go:36 INFO Successfully Opened config.json
+2025/03/22 12:17:34 /Users/gabrielamihaila/Projects/plentyone/api_gateway/config/config.go:36 INFO Successfully Opened config.json
+2025/03/22 12:17:34 /Users/gabrielamihaila/Projects/plentyone/api_gateway/config/config.go:36 INFO Successfully Opened config.json
+2025/03/22 12:17:34 [Metrics] Request: GET http://192.168.1.206:8081 | Count: 1
+2025/03/22 12:17:34 /Users/gabrielamihaila/Projects/plentyone/api_gateway/request_manager/utils.go:32 INFO [Metrics] Request: GET http://192.168.1.206:8081 | Count: 1
+2025/03/22 12:17:34 [Metrics] Latency: http://192.168.1.206:8081 | Duration: 0s
+2025/03/22 12:17:34 /Users/gabrielamihaila/Projects/plentyone/api_gateway/request_manager/utils.go:42 INFO [Metrics] Latency: http://192.168.1.206:8081 | Duration: 0s
+2025/03/22 12:17:34 /Users/gabrielamihaila/Projects/plentyone/api_gateway/handlers/handler.go:70 INFO Request to http://192.168.1.206:8081 took 0.0017855 seconds
+2025/03/22 12:17:34 /Users/gabrielamihaila/Projects/plentyone/api_gateway/handlers/handler.go:80 INFO [API GATEWAY] Method: GET | Path: http://192.168.1.206:8081 | Status: 200 OK | Duration: 0.0017855
+2025/03/22 12:17:34 /Users/gabrielamihaila/Projects/plentyone/api_gateway/handlers/handler.go:88 INFO Request relayed successfully
+2025/03/22 12:22:45 Logger initialized
+2025/03/22 12:22:45 /Users/gabrielamihaila/Projects/plentyone/api_gateway/main.go:35 INFO API Gateway running on 8084
+2025/03/22 12:23:35 /Users/gabrielamihaila/Projects/plentyone/api_gateway/config/config.go:36 INFO Successfully Opened config.json
+2025/03/22 12:23:35 /Users/gabrielamihaila/Projects/plentyone/api_gateway/config/config.go:36 INFO Successfully Opened config.json
+2025/03/22 12:23:35 /Users/gabrielamihaila/Projects/plentyone/api_gateway/config/config.go:36 INFO Successfully Opened config.json
+2025/03/22 12:23:35 [Metrics] Request: GET http://192.168.1.206:8081 | Count: 1
+2025/03/22 12:23:35 /Users/gabrielamihaila/Projects/plentyone/api_gateway/request_manager/utils.go:32 INFO [Metrics] Request: GET http://192.168.1.206:8081 | Count: 1
+2025/03/22 12:23:35 [Metrics] Latency: http://192.168.1.206:8081 | Duration:      0s
+2025/03/22 12:23:35 /Users/gabrielamihaila/Projects/plentyone/api_gateway/request_manager/utils.go:42 INFO [Metrics] Latency: http://192.168.1.206:8081 | Duration:      0s
+2025/03/22 12:23:35 /Users/gabrielamihaila/Projects/plentyone/api_gateway/handlers/handler.go:70 INFO Request to http://192.168.1.206:8081 took 0.0031382 seconds
+2025/03/22 12:23:35 /Users/gabrielamihaila/Projects/plentyone/api_gateway/handlers/handler.go:80 INFO [API GATEWAY] Method: GET | Path: http://192.168.1.206:8081 | Status: 200 OK | Duration: 0.00313825
+2025/03/22 12:23:35 /Users/gabrielamihaila/Projects/plentyone/api_gateway/handlers/handler.go:88 INFO Request relayed successfully
+2025/03/22 12:28:17 Logger initialized
+2025/03/22 12:28:17 /Users/gabrielamihaila/Projects/plentyone/api_gateway/main.go:35 INFO API Gateway running on 8084
+2025/03/22 12:28:35 /Users/gabrielamihaila/Projects/plentyone/api_gateway/config/config.go:36 INFO Successfully Opened config.json
+2025/03/22 12:28:35 /Users/gabrielamihaila/Projects/plentyone/api_gateway/config/config.go:36 INFO Successfully Opened config.json
+2025/03/22 12:28:35 /Users/gabrielamihaila/Projects/plentyone/api_gateway/config/config.go:36 INFO Successfully Opened config.json
+2025/03/22 12:28:35 [Metrics] Request: GET http://192.168.1.206:8081 | Count: 1
+2025/03/22 12:28:35 /Users/gabrielamihaila/Projects/plentyone/api_gateway/request_manager/utils.go:32 INFO [Metrics] Request: GET http://192.168.1.206:8081 | Count: 1
+2025/03/22 12:28:35 [Metrics] Latency: http://192.168.1.206:8081 | Duration: 0
+2025/03/22 12:28:35 /Users/gabrielamihaila/Projects/plentyone/api_gateway/request_manager/utils.go:42 INFO [Metrics] Latency: http://192.168.1.206:8081 | Duration: 0s
+2025/03/22 12:28:35 /Users/gabrielamihaila/Projects/plentyone/api_gateway/handlers/handler.go:70 INFO Request to http://192.168.1.206:8081 took 0.0019340 seconds
+2025/03/22 12:28:35 /Users/gabrielamihaila/Projects/plentyone/api_gateway/handlers/handler.go:80 INFO [API GATEWAY] Method: GET | Path: http://192.168.1.206:8081 | Status: 200 OK | Duration: 0.001933959
+2025/03/22 12:28:35 /Users/gabrielamihaila/Projects/plentyone/api_gateway/handlers/handler.go:88 INFO Request relayed successfully
+2025/03/22 15:12:59 Logger initialized
+2025/03/22 15:12:59 /Users/gabrielamihaila/Projects/plentyone/api_gateway/main.go:35 INFO API Gateway running on 8084
+2025/03/22 15:13:27 /Users/gabrielamihaila/Projects/plentyone/api_gateway/config/config.go:36 INFO Successfully Opened config.json
+2025/03/22 15:13:27 /Users/gabrielamihaila/Projects/plentyone/api_gateway/config/config.go:36 INFO Successfully Opened config.json
+2025/03/22 15:13:27 /Users/gabrielamihaila/Projects/plentyone/api_gateway/config/config.go:36 INFO Successfully Opened config.json
+2025/03/22 15:13:27 [Metrics] Request: GET http://192.168.1.206:8081 | Count: 1
+2025/03/22 15:13:27 /Users/gabrielamihaila/Projects/plentyone/api_gateway/request_manager/utils.go:32 INFO [Metrics] Request: GET http://192.168.1.206:8081 | Count: 1
+2025/03/22 15:13:27 [Metrics] Latency: http://192.168.1.206:8081 | Duration: 0s
+2025/03/22 15:13:27 /Users/gabrielamihaila/Projects/plentyone/api_gateway/request_manager/utils.go:42 INFO [Metrics] Latency: http://192.168.1.206:8081 | Duration: 0s
+2025/03/22 15:13:27 /Users/gabrielamihaila/Projects/plentyone/api_gateway/handlers/handler.go:70 INFO Request to http://192.168.1.206:8081 took 0.0016974 seconds
+2025/03/22 15:13:27 /Users/gabrielamihaila/Projects/plentyone/api_gateway/handlers/handler.go:80 INFO [API GATEWAY] Method: GET | Path: http://192.168.1.206:8081 | Status: 200 OK | Duration: 0.001697416
+2025/03/22 15:13:27 /Users/gabrielamihaila/Projects/plentyone/api_gateway/handlers/handler.go:88 INFO Request relayed successfully

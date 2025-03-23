@@ -4,10 +4,7 @@ FROM --platform=linux/arm64 golang:1.22 AS builder
 WORKDIR /app
 
 # Copy source code into the container
-COPY bin/client /client
-
-# Expose the client port
-EXPOSE 8083
+COPY bin/client client
 
 # Run the client
-CMD ["/client"]
+CMD ["/app/client"]
