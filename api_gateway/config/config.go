@@ -9,6 +9,8 @@ import (
 	logger "api_gateway/logger"
 )
 
+var ConfigFile = "config.json"
+
 type Config struct {
 	Port         string        `json:"port"`
 	JWTSecret    string        `json:"jwt_secret"`
@@ -22,30 +24,29 @@ type Destination struct {
 	PathPrefix string `json:"path_prefix"`
 }
 
-func LoadConfig() Config {
+func LoadConfig(configFileName string) Config {
 	var port string
 	var jwtSecret string
 
-	// Open our jsonFile
-	jsonFile, err := os.Open("config.json")
-	// if we os.Open returns an error then handle it
+	// Open jsonFile
+	jsonFile, err := os.Open(configFileName)
 	if err != nil {
 		panic(err)
 	}
-	fmt.Println("Successfully Opened config.json")
-	logger.Info("Successfully Opened config.json")
-	// defer the closing of our jsonFile so that we can parse it later on
+	fmt.Println("Successfully Opened " + configFileName)
+	logger.Info("Successfully Opened " + configFileName)
+	// close jsonFile at the end of the block
 	defer jsonFile.Close()
 
-	// read our opened jsonFile as a byte array.
+	// read opened jsonFile as a byte array.
 	byteValue, err := io.ReadAll(jsonFile)
 
 	if err != nil {
 		panic(err)
 	}
 
-	// we unmarshal our byteArray which contains our
-	// jsonFile's content into 'config' which we defined above
+	// unmarshal the byteArray which contains 
+	// jsonFile's content into 'config'
 	err = json.Unmarshal(byteValue, &config)
 	if err != nil {
 		panic(err)

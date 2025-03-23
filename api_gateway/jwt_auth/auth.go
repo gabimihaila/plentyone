@@ -15,7 +15,7 @@ import (
 // Auth is a standard HTTP middleware for JWT authentication
 func Auth(next http.Handler) http.Handler {
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		configuration := config.LoadConfig()
+		configuration := config.LoadConfig(config.ConfigFile)
 
 		token := r.Header.Get("Authorization")
 

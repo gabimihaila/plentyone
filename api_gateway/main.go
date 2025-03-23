@@ -12,8 +12,10 @@ import (
 )
 
 func main() {
+	var configFile = config.ConfigFile
+	
 	// Load configuration
-	cfg := config.LoadConfig()
+	cfg := config.LoadConfig(configFile)
 
 	destinations := cfg.Destinations
 
@@ -23,7 +25,7 @@ func main() {
 	// Initialize logger
 	logger.InitLogger()
 
-	// Log ?
+	// Log
 	//logger.LoggerMiddleware(http.HandlerFunc(handler.ProxyHandler(destinations, "/serv0")))
 
 	// Start server

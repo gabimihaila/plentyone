@@ -35,7 +35,7 @@ func ProxyHandler(destinationsConfig []config.Destination) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		start := time.Now()
 
-		destinationsConfig := config.LoadConfig().Destinations
+		destinationsConfig := config.LoadConfig(config.ConfigFile).Destinations
 		path := strings.Split(r.URL.Path, "/")[1]
 
 		url := getTargetUrl(destinationsConfig, path)
@@ -62,7 +62,7 @@ func ProxyHandler(destinationsConfig []config.Destination) http.HandlerFunc {
 		fullURL := targetURL + r.URL.Path
 
 		request_manager.LogRequest(r.Method, targetURL)
-		request_manager.LogLatency(targetURL, time.Duration(duration))
+		request_manager.LogLatency(fullURL, time.Duration(duration))
 
 		fmt.Println("Request to ", fullURL, " took ", duration, " seconds ")
 		infoMessage := fmt.Sprintf("Request to %s took %.7f seconds", fullURL, duration)
@@ -75,9 +75,9 @@ func ProxyHandler(destinationsConfig []config.Destination) http.HandlerFunc {
 
 		logger.Info(infoMessage)
 
-		fmt.Println("resp status code:  ", resp.StatusCode) //200
-		fmt.Println("resp status Name?:  ", resp.Status)    // 200 OK
-		fmt.Println("r method:  ", r.Method)                // GET
+		fmt.Println("resp status code:  ", resp.StatusCode)
+		fmt.Println("resp status Name?:  ", resp.Status)
+		fmt.Println("r method:  ", r.Method)    
 
 		fmt.Fprint(w, "Request relayed successfully")
 		fmt.Println("Request relayed successfully")
