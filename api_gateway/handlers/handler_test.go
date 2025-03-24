@@ -2,8 +2,6 @@ package handler
 
 import (
 	"api_gateway/config"
-	"net/http"
-	"net/http/httptest"
 	"testing"
 )
 
