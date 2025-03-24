@@ -11,7 +11,9 @@ There are 3 main entities belongig to this project: a microservice, a client and
 
 **Client part**
 
- Client makes a GET request to "http://192.168.1.206:8084/serv0/home". For Docker it was needed to use the ip address to make a request, because docker also virtualizes the network.
+ Client makes a GET request to ```http://192.168.1.206:8084/serv0/home```. For Docker it was needed to use the ip address to make a request, because docker also virtualizes the network.
+ For a better working change ```192.168.1.206``` with your ip address.
+ Also make the same change in ```api_gateway/config.json``` file.
 
  There is also a bearer token for authorization purposes. The JWT secret for the token is stored in the ```config.json``` file from the ```apy_gateway``` directory.
 
