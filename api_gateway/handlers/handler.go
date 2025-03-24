@@ -29,13 +29,19 @@ func getTargetUrl(destinationsAll []config.Destination, path string) string {
 	return ""
 }
 
+func GetConfigDestinations() []config.Destination {
+	destinationsConfig := config.LoadConfig(config.ConfigFile).Destinations
+
+	return destinationsConfig
+}
+
 // ProxyHandler forwards requests to a target service
 func ProxyHandler(destinationsConfig []config.Destination) http.HandlerFunc {
 
 	return func(w http.ResponseWriter, r *http.Request) {
 		start := time.Now()
 
-		destinationsConfig := config.LoadConfig(config.ConfigFile).Destinations
+		destinationsConfig := GetConfigDestinations()
 		path := strings.Split(r.URL.Path, "/")[1]
 
 		url := getTargetUrl(destinationsConfig, path)

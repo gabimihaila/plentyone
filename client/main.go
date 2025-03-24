@@ -9,7 +9,7 @@ import (
 )
 
 // APIBaseURL is the target API Gateway URL
-var APIBaseURL = getEnv("API_BASE_URL", "http://192.168.1.206:8084/serv0/home")
+var APIBaseURL = getEnv("API_BASE_URL", "http://192.168.1.252:8084/serv0/home")
 
 func getEnv(key, fallback string) string {
 	if value, exists := os.LookupEnv(key); exists {

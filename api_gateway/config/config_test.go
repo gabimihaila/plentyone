@@ -21,6 +21,8 @@ import (
 // 	return file.Name()
 // }
 
+var expectedConfigFile = "../config-test.json"
+
 func TestLoadConfig(t *testing.T) {
 	expectedDestination := Destination{
 		URL:        "http://192.168.1.999:8086",
@@ -36,14 +38,14 @@ func TestLoadConfig(t *testing.T) {
 		},
 	}
 
-	jsonFile, err := os.Open("config-test.json")
+	jsonFile, err := os.Open(expectedConfigFile)
 	if err != nil {
 		panic(err)
 	}
 
 	defer jsonFile.Close()
 
-	loadedConfig := LoadConfig("config-test.json")
+	loadedConfig := LoadConfig(expectedConfigFile)
 
 	if loadedConfig.Port != expectedConfig.Port {
 		t.Errorf("Expected port %s, got %s", expectedConfig.Port, loadedConfig.Port)
