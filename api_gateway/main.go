@@ -38,9 +38,4 @@ func main() {
 		log.Fatal(err)
 		fmt.Println("Error starting server:", err)
 	}
-
-	// log.Fatal(http.ListenAndServe(":"+port, nil))
-	// if err := http.ListenAndServe(":"+port, mux); err != nil {
-	// 	fmt.Println("Error starting server:", err)
-	// }
 }
